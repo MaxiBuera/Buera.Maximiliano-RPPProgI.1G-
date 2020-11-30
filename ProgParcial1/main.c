@@ -41,9 +41,10 @@ int main()
     printf("Valor del impuesto: %.2f",impuestoProducto);
 
     //2)
+    int cantidadReemplazos;
     char cadena[20] = "universidad" ;
-    reemplazarCaracter(cadena,'i','f');
-    printf("\n\n%s",cadena);
+    cantidadReemplazos = reemplazarCaracter(cadena,'i','f');
+    printf("\n\n%s - Cantidad de reemplazos: %d",cadena,cantidadReemplazos);
     printf("\n");
 
     //3)
